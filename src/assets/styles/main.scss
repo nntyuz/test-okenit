@@ -1,0 +1,64 @@
+body {
+  min-width: 375px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.w-container {
+  max-width: 1440px;
+  padding: 0 30px;
+}
+
+.flex {
+  display: flex;
+
+  &.column {
+    flex-direction: column;
+  }
+
+  &.wrap {
+    flex-wrap: wrap;
+  }
+
+  &.j-center {
+    justify-content: center;
+  }
+
+  &.j-between {
+    justify-content: space-between;
+  }
+
+  &.j-end {
+    justify-content: flex-end;
+  }
+
+  &.a-center {
+    align-items: center;
+  }
+
+  &.shrink-0 {
+    flex-shrink: 0;
+  }
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.as {
+  &-start {
+    align-self: start;
+  }
+
+  &-center {
+    align-self: center;
+  }
+
+  &-end {
+    align-self: end;
+  }
+}
+
+.d-block {
+  display: block;
+}
